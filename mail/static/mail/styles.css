@@ -1,3 +1,18 @@
 textarea {
     min-height: 400px;
 }
+
+.email-list{
+    outline: 1px solid lightgray; 
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.read-email{
+    background-color: rgb(199, 197, 197);
+}
+
+.unread-email{
+    background-color: white;
+}
+
