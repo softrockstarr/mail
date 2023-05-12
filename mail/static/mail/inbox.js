@@ -81,7 +81,10 @@ function view_email(id){
       })
       load_mailbox('inbox')
     });
-    document.querySelector('#emails-details').append(archive_button);
+    // don't show archive button on sent emails 
+    if(mailbox !== "sent") {
+      document.querySelector('#emails-details').append(archive_button);
+    }
   });    
 }
 
